@@ -34,7 +34,21 @@ section#telefone{
 }
 
 section#redes{
+    text-align: right;
+}
+section#redes img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.842);
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.733);
+    transition: transform .3s, border 1.5s;
 
+}
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
 }
 
 iframe#tela{
